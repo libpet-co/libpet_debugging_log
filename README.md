@@ -47,3 +47,26 @@ https://autowarefoundation.github.io/autoware-documentation/release-v1.0_beta/in
 注意事项5： 如果编译遇到如下错误，解决方法是在下图Cmakelist.txt中加入第13行代码find_package(pcl_ros REQUIRED)
 ![alt text](<docs/Screenshot from 2025-07-08 11-33-51.png>)
 ![alt text](<docs/Screenshot from 2025-07-08 11-45-15.png>)
+
+
+## step2: 运行autoware v1.0 仿真环境
+
+编译完成后，按照下面的操作流程运行 planning simulation ，如果成功运行就说明安装成功。
+注意：由于不运行感知，下面的检查可以不管
+
+```
+$ cd ~/autoware_data
+$ ls -C -w 30
+image_projection_based_fusion
+lidar_apollo_instance_segmentation
+lidar_centerpoint
+tensorrt_yolo
+tensorrt_yolox
+traffic_light_classifier
+traffic_light_fine_detector
+traffic_light_ssd_fine_detector
+yabloc_pose_initializer
+```
+
+![alt text](<docs/Screenshot from 2025-07-08 13-36-33.png>)
+![alt text](<docs/Screenshot from 2025-07-08 13-36-46.png>)
