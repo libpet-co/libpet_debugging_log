@@ -23,3 +23,7 @@ https://cloud.tencent.com/developer/article/2417968
 ```
 wget http://fishros.com/install -O fishros && . fishros
 ```
+6) 安装autoware v1.0 环境
+```
+https://autowarefoundation.github.io/autoware-documentation/release-v1.0_beta/installation/autoware/source-installation/
+```
