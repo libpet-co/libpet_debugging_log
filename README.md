@@ -41,5 +41,9 @@ https://autowarefoundation.github.io/autoware-documentation/release-v1.0_beta/in
 ![alt text](<docs/Screenshot from 2025-07-08 11-04-43.png>)
 ![alt text](<docs/Screenshot from 2025-07-08 11-06-06.png>)
 
-注意事项34：rosdep init 和 rosdep update 有时会遇到问，我这里没有问题，直接过，可能和网络有关，如果遇到问题，请自行查找解决方案。
+注意事项4：rosdep init 和 rosdep update 有时会遇到问，我这里没有问题，直接过，可能和网络有关，如果遇到问题，请自行查找解决方案。
 ![alt text](<docs/Screenshot from 2025-07-08 11-22-20.png>)
+
+注意事项5： 如果编译遇到如下错误，解决方法是在下图Cmakelist.txt中加入find_package(pcl_ros REQUIRED)
+![alt text](<docs/Screenshot from 2025-07-08 11-33-51.png>)
+![alt text](<docs/Screenshot from 2025-07-08 11-45-15.png>)
