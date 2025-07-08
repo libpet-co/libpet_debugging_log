@@ -1,14 +1,16 @@
-# autoware debugging log from 
-## step1: preparing
-update upgrade install needed software on new ubuntu 22.04   
+# autoware 调试日志，从零开始
+硬件 S210H 19-10980HK 
+## step1: 准备工作
+在新的 ubuntu 22.04 更新、升级、安装必要软件
+1）系统软件更新的升级
 ```
 sudo apt update
 sudo apt upgrade
 ```
-install vpn 
-
-huanyuan :
+2）安装vpn 
+3）换源
 ```
 wget http://fishros.com/install -O fishros && . fishros
 ```
+4） 安装中文输入法，取决于自己喜好，这里安装google pinyin
 https://cloud.tencent.com/developer/article/2417968
