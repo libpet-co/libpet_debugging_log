@@ -25,7 +25,7 @@ wget http://fishros.com/install -O fishros && . fishros
 ```
 ## step2: 安装autoware v1.0 环境，
 
-一定要注意版本选择 release-v1.0_beta ，按照下面的步骤进行操作
+一定要注意版本选择 release-v1.0_beta ，按照下面的步骤进行操作。这里直接使用./setup-dev-env.sh，把依赖环境安装完毕了。这其实取决于网络环境，有可能会失败。如果失败，下面链接有如何手动安装各种依赖。注意先不要安装感知相关的依赖，比如nvidia相关的，cuda、cudnn、tensor等。
 ```
 https://autowarefoundation.github.io/autoware-documentation/release-v1.0_beta/installation/autoware/source-installation/
 ```
