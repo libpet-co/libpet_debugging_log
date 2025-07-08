@@ -8,6 +8,8 @@
 sudo apt update
 sudo apt upgrade
 ```
+上述指令没有VPN的或者其它原因可能会失败，可以安装VPN后再尝试运行
+
 2）安装vpn 
 
 3）换源
