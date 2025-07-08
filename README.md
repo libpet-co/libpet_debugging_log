@@ -19,7 +19,7 @@ wget http://fishros.com/install -O fishros && . fishros
 4） 安装中文输入法，取决于自己喜好，这里安装google pinyin
 https://cloud.tencent.com/developer/article/2417968
 
-5)  安装vscode
+5）安装vscode
 ```
 wget http://fishros.com/install -O fishros && . fishros
 ```
