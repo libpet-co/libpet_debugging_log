@@ -11,3 +11,4 @@ huanyuan :
 ```
 wget http://fishros.com/install -O fishros && . fishros
 ```
+https://cloud.tencent.com/developer/article/2417968
