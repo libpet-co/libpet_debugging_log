@@ -27,3 +27,9 @@ wget http://fishros.com/install -O fishros && . fishros
 ```
 https://autowarefoundation.github.io/autoware-documentation/release-v1.0_beta/installation/autoware/source-installation/
 ```
+
+注意事项1：不安装nvidia 库
+1) ![alt text](<docs/Screenshot from 2025-07-08 10-56-01.png>)
+
+注意事项2：下载artifacts 选择yes
+![alt text](<docs/Screenshot from 2025-07-08 10-56-09.png>)
