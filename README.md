@@ -25,7 +25,7 @@ wget http://fishros.com/install -O fishros && . fishros
 ```
 ## step2: 安装autoware v1.0 环境，
 
-一定要注意版本选择 release-v1.0_beta
+一定要注意版本选择 release-v1.0_beta ，按照下面的步骤进行操作
 ```
 https://autowarefoundation.github.io/autoware-documentation/release-v1.0_beta/installation/autoware/source-installation/
 ```
