@@ -7,4 +7,7 @@ sudo apt upgrade
 ```
 install vpn 
 
-huanyuan :wget http://fishros.com/install -O fishros && . fishros
+huanyuan :
+```
+wget http://fishros.com/install -O fishros && . fishros
+```
