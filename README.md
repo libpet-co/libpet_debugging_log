@@ -29,7 +29,11 @@ https://autowarefoundation.github.io/autoware-documentation/release-v1.0_beta/in
 ```
 
 注意事项1：不安装nvidia 库
-1) ![alt text](<docs/Screenshot from 2025-07-08 10-56-01.png>)
+![alt text](<docs/Screenshot from 2025-07-08 10-56-01.png>)
 
 注意事项2：下载artifacts 选择yes
 ![alt text](<docs/Screenshot from 2025-07-08 10-56-09.png>)
+
+注意事项3：遇到onnx下载相关错误 解决方法：注释掉下面文件28行以后的代码
+![alt text](<docs/Screenshot from 2025-07-08 11-04-43.png>)
+![alt text](<docs/Screenshot from 2025-07-08 11-06-06.png>)
