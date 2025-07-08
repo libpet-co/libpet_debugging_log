@@ -23,7 +23,9 @@ https://cloud.tencent.com/developer/article/2417968
 ```
 wget http://fishros.com/install -O fishros && . fishros
 ```
-6) 安装autoware v1.0 环境，一定要注意版本选择release-v1.0_beta
+## step2: 安装autoware v1.0 环境，
+
+一定要注意版本选择 release-v1.0_beta
 ```
 https://autowarefoundation.github.io/autoware-documentation/release-v1.0_beta/installation/autoware/source-installation/
 ```
