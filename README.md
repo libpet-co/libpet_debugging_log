@@ -9,6 +9,7 @@ sudo apt update
 sudo apt upgrade
 ```
 2）安装vpn 
+
 3）换源
 ```
 wget http://fishros.com/install -O fishros && . fishros
