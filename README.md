@@ -23,7 +23,7 @@ https://cloud.tencent.com/developer/article/2417968
 ```
 wget http://fishros.com/install -O fishros && . fishros
 ```
-6) 安装autoware v1.0 环境
+6) 安装autoware v1.0 环境，一定要注意版本选择release-v1.0_beta
 ```
 https://autowarefoundation.github.io/autoware-documentation/release-v1.0_beta/installation/autoware/source-installation/
 ```
@@ -38,3 +38,6 @@ https://autowarefoundation.github.io/autoware-documentation/release-v1.0_beta/in
 注意事项3：遇到onnx下载相关错误 解决方法：注释掉下面文件28行以后的代码，这些是感知模块用的，暂时不调试感知，所以可以注释
 ![alt text](<docs/Screenshot from 2025-07-08 11-04-43.png>)
 ![alt text](<docs/Screenshot from 2025-07-08 11-06-06.png>)
+
+注意事项34：rosdep init 和 rosdep update 有时会遇到问，我这里没有问题，直接过，可能和网络有关，如果遇到问题，请自行查找解决方案。
+![alt text](<docs/Screenshot from 2025-07-08 11-22-20.png>)
