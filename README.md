@@ -48,7 +48,9 @@ https://autowarefoundation.github.io/autoware-documentation/release-v1.0_beta/in
 ![alt text](<docs/Screenshot from 2025-07-08 11-33-51.png>)
 ![alt text](<docs/Screenshot from 2025-07-08 11-45-15.png>)
 
+备注5：传感器坐标
 
+![alt text](docs/APS_TF.jpeg)
 ## step2: 运行autoware v1.0 仿真环境
 
 编译完成后，按照下面的操作流程运行 planning simulation ，如果成功运行就说明安装成功。
