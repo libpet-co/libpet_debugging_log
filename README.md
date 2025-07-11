@@ -70,3 +70,11 @@ yabloc_pose_initializer
 
 ![alt text](<docs/Screenshot from 2025-07-08 13-36-33.png>)
 ![alt text](<docs/Screenshot from 2025-07-08 13-36-46.png>)
+
+## step3: 运行 autoware.APS 库
+
+编译好autoware.APS库后，需要运行下面的指令，下载APS的dae模型，以便在环境中能显示APS的模型
+
+```
+gdown -O ~/autoware.APS/src/launcher/autoware_launch_APS/vehicle/aps_vehicle_launch/aps_vehicle_description/mesh  'https://drive.google.com/uc?id=1JFPvChA3dt0KyEM8-l4DqiAY18JekRlM'
+```
