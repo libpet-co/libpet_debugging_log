@@ -81,8 +81,12 @@ yabloc_pose_initializer
 gdown -O ~/autoware.APS/src/launcher/autoware_launch_APS/vehicle/aps_vehicle_launch/aps_vehicle_description/mesh/aps2.dae  'https://drive.google.com/uc?id=1JFPvChA3dt0KyEM8-l4DqiAY18JekRlM'
 ```
 ## step4: 下载自己的地图
+注意，如果主目录存在autoware_map_APS文件夹，就不用创建。 在启动的时候注意更好map_path
 ```
 mkdir -p ~/autoware_map_APS
 gdown -O ~/autoware_map_APS/sample-map-planning-APS.zip 'https://docs.google.com/uc?export=download&id=13J6ha8lBPAyxQ1F5b6DU3nmxo9n7mN2L'
 unzip -d ~/autoware_map_APS ~/autoware_map_APS/sample-map-planning-APS.zip
+```
+```
+ros2 launch autoware_launch planning_simulator.launch.xml map_path:=/home/libpet/autoware_map/sample-map-planning-APS vehicle_model:=aps_vehicle sensor_model:=aps_sensor_kit
 ```
