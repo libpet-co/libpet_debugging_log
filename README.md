@@ -82,7 +82,7 @@ gdown -O ~/autoware.APS/src/launcher/autoware_launch_APS/vehicle/aps_vehicle_lau
 ```
 ## step4: 下载自己的地图
 ```
-mkdir ~/autoware_map_APS
+mkdir -p ~/autoware_map_APS
 gdown -O ~/autoware_map_APS/sample-map-planning-APS.zip 'https://docs.google.com/uc?export=download&id=13J6ha8lBPAyxQ1F5b6DU3nmxo9n7mN2L'
 unzip -d ~/autoware_map_APS ~/autoware_map_APS/sample-map-planning-APS.zip
 ```
