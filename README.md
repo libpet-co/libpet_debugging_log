@@ -80,3 +80,7 @@ yabloc_pose_initializer
 ```
 gdown -O ~/autoware.APS/src/launcher/autoware_launch_APS/vehicle/aps_vehicle_launch/aps_vehicle_description/mesh/aps2.dae  'https://drive.google.com/uc?id=1JFPvChA3dt0KyEM8-l4DqiAY18JekRlM'
 ```
+## step4: 下载自己的地图
+
+gdown -O ~/autoware_map_APS/ 'gdown https://drive.google.com/uc?id=13J6ha8lBPAyxQ1F5b6DU3nmxo9n7mN2L'
+unzip -d ~/autoware_map_APS ~/autoware_map_APS/sample-map-planning-APS.zip
