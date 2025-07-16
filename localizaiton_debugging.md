@@ -36,10 +36,12 @@ unzip -d data data/ros2_bag_data.zip
 ######################################
 ```
 ## Step 5 代码修改
-使用vscode 查找替换功能，如下图所示，更改twist和imu的话题
+1) 使用vscode 查找替换功能，如下图所示，更改twist和imu的话题
 ![alt text](<docs/Screenshot from 2025-07-15 18-27-21.png>) 
 ![alt text](<docs/Screenshot from 2025-07-15 18-28-16.png>)
 
+2) 修改gnss 为false
+![alt text](<docs/Screenshot from 2025-07-16 15-35-28.png>)
 ## Step 5 编译
 
 ```
