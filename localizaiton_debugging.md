@@ -47,6 +47,8 @@ colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
 ```
 
 ## Step 6 启动 autoware localization 测试
+
+注意地图的路径要换到自己实际的路径map_path:=/home/libpet/autoware_map/sample-map-planning-APS
 ```
 source install/setup.bash
 ros2 launch autoware_launch test_localization.launch.xml map_path:=/home/libpet/autoware_map/sample-map-planning-APS vehicle_model:=aps_vehicle sensor_model:=aps_sensor_kit
