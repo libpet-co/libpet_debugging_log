@@ -31,6 +31,15 @@ mkdir data
 gdown -O data/ros2_bag_data.zip  'https://drive.google.com/uc?id=1ugzhulnHvblLenjpAMu5oOVOPWNH1xkB'
 unzip -d data data/ros2_bag_data.zip
 ```
+3） 测试用地图数据
+```
+######################################
+```
+## Step 5 代码修改
+使用vscode 查找替换功能，如下图所示，更改twist和imu的话题
+![alt text](<docs/Screenshot from 2025-07-15 18-27-21.png>) 
+![alt text](<docs/Screenshot from 2025-07-15 18-28-16.png>)
+
 ## Step 5 编译
 
 ```
