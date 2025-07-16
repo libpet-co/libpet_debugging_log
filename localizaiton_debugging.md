@@ -77,3 +77,7 @@ ros2 bag play rosbag2_2025_07_14-20_23_11_move/ --clock
 ![alt text](<docs/Screenshot from 2025-07-15 19-42-21.png>) 
 ![alt text](<docs/Screenshot from 2025-07-15 19-42-31.png>) 
 ![alt text](<docs/Screenshot from 2025-07-15 19-42-51.png>)
+
+## Step 9 实车数据调试
+
+实车数据调试不需要设置上面的use_sim_time，不需要播放数据包，而是直接启动传感器驱动。激光雷达、vehicle_interface。和IMU。目前发现加了IMU，定位效果差
