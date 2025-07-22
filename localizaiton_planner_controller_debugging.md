@@ -1,4 +1,6 @@
-# localization+planner=controller 调试日志，从零开始
+# localization+planner=controller 调试日志
+
+
 
 ```
 ros2 topic pub --rate 10 /vehicle/status/steering_status autoware_vehicle_msgs/msg/SteeringReport '{
