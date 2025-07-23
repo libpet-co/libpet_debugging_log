@@ -2,6 +2,8 @@
 
 完成 step1_autoware_dependency_install_and_initial_run 和 step2_localizaiton_debugging 后再进行此操作
 
+[配套的视频教程](https://drive.google.com/file/d/1x6FAHwasYiO8vMzH_WgQzLgChDYvk236/view?usp=sharing)
+
 ## step 1 下载源码
 下载源码
 
@@ -83,4 +85,4 @@ ros2 bag play rosbag2_2025_07_21-14_12_57/ --clock
 
 ## step 7 使用rviz初始化并设置路径
 
-参考视频教程
+[参考视频教程](https://drive.google.com/file/d/1x6FAHwasYiO8vMzH_WgQzLgChDYvk236/view?usp=sharing)
