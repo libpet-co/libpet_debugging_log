@@ -34,8 +34,7 @@ unzip -d test_map/ test_map/sample-map-planning-APS.zip
 ```
 3. 下载vehicle APS的三维模型
 ```
-gdown -O src/launcher/autoware_launch_APS/vehicle/aps_vehicle_launch/aps_vehicle_description/mesh/aps2.dae  'https://drive.google.com/uc?id=1JFPvC
-hA3dt0KyEM8-l4DqiAY18JekRlM'
+gdown -O src/launcher/autoware_launch_APS/vehicle/aps_vehicle_launch/aps_vehicle_description/mesh/aps2.dae  'https://drive.google.com/uc?id=1JFPvChA3dt0KyEM8-l4DqiAY18JekRlM'
 ```
 ## step 3 编译
 
@@ -72,8 +71,7 @@ you need change the path of the map data acorrding your path
 
 ```
 source install/setup.bash
-ros2 launch autoware_launch autoware.launch.xml map_path:=/home/frank/test_map/sample-map-planning-APS vehicle_model:=aps_vehicle sensor_model:=ap
-s_sensor_kit
+ros2 launch autoware_launch autoware.launch.xml map_path:=/home/frank/test_map/sample-map-planning-APS vehicle_model:=aps_vehicle sensor_model:=aps_sensor_kit
 ```
 
 ## step 6 回放数据包
