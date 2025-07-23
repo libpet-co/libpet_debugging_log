@@ -7,32 +7,37 @@
 
 ```
 git clone https://github.com/libpet-co/autoware.APS.git
+cd autoware.APS
+mkdir src
+vcs import src < autoware.repos
 ```
 ![alt text](docs/image.png)
 
-## step 2 下载测试用的ros2 bag 数据和 地图数据
+## step 2 下载测试用的 ros2 bag 数据和 地图数据
 
-ros2 bag 数据包含 imu 数据和 vehicle interface 数据
+注意文件下载路径：可以在home下创建和下载数据，或者根据自己情况指定
+
+1. ros2 bag 数据包含 imu 数据和 vehicle interface 数据
 ```
 mkdir ros2_bag_data
 gdown -O ros2_bag_data/rosbag2_2025_07_21-14_12_57.zip https://drive.google.com/uc?id=1gdhUmAzXyBWIGrEAqnjXgw9N4H-alEqG
 unzip -d ros2_bag_data rosbag2_2025_07_21-14_12_57.zip
 ```
-下载测试用地图数据
+2. 下载测试用地图数据
 
 ```
 mkdir test_map
 gdown -O test_map/sample-map-planning-APS.zip https://drive.google.com/uc?id=19PaxactEaybAZfU5lb4TlHDOIGFgKzBc
 unzip -d test_map/ test_map/sample-map-planning-APS.zip
 ```
-下载vehicle APS的三维模型
+3. 下载vehicle APS的三维模型
 ```
 gdown -O src/launcher/autoware_launch_APS/vehicle/aps_vehicle_launch/aps_vehicle_description/mesh/aps2.dae  'https://drive.google.com/uc?id=1JFPvC
 hA3dt0KyEM8-l4DqiAY18JekRlM'
 ```
 ## step 3 编译
 
-一定要先下载数据再编译
+一定要先下载数据再编译，因为车辆模型数据aps2.dae 要随着编译 安装到install文件夹。
 
 ```
 colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
@@ -70,3 +75,8 @@ s_sensor_kit
 ```
 
 ## step 6 回放数据包
+
+```
+unzip rosbag2_2025_07_21-14_12_57.zip 
+ros2 bag play rosbag2_2025_07_21-14_12_57/ --clock
+```
