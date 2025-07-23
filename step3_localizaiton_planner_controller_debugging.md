@@ -80,3 +80,7 @@ s_sensor_kit
 unzip rosbag2_2025_07_21-14_12_57.zip 
 ros2 bag play rosbag2_2025_07_21-14_12_57/ --clock
 ```
+
+## step 7 使用rviz初始化并设置路径
+
+参考视频教程
