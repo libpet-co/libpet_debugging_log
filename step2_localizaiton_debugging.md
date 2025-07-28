@@ -23,7 +23,7 @@ vcs import src < autoware.repos
 1） APS车的模型 aps2.dae，注意路径
 
 ```
-gdown -O src/launcher/autoware_launch_APS/vehicle/aps_vehicle_launch/aps_vehicle_description/mesh/aps2.dae  'https://drive.google.com/uc?id=1JFPvChA3dt0KyEM8-l4DqiAY18JekRlM'
+gdown -O src/launcher/autoware_launch_APS/vehicle/aps_vehicle_launch/aps_vehicle_description/mesh/aps2.dae  'https://drive.google.com/uc?id=1ZEu_IYBXvrCy5azXOEOhSrONRucKTkT_'
 ```
 2） ros2 bag 数据
 ```
