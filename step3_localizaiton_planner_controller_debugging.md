@@ -67,7 +67,7 @@ colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
 
 ## step 5 启动程序
 
-you need change the path of the map data acorrding your path
+注意map_path:=/home/frank/test_map/sample-map-planning-APS改为自己的地图所在的路径
 
 ```
 source install/setup.bash
