@@ -34,7 +34,7 @@ unzip -d test_map/ test_map/sample-map-planning-APS.zip
 ```
 3. 下载vehicle APS的三维模型
 ```
-gdown -O src/launcher/autoware_launch_APS/vehicle/aps_vehicle_launch/aps_vehicle_description/mesh/aps2.dae  'https://drive.google.com/uc?id=1JFPvChA3dt0KyEM8-l4DqiAY18JekRlM'
+gdown -O src/launcher/autoware_launch_APS/vehicle/aps_vehicle_launch/aps_vehicle_description/mesh/aps2.dae  'https://drive.google.com/uc?id=1ZEu_IYBXvrCy5azXOEOhSrONRucKTkT_'
 ```
 ## step 3 编译
 
