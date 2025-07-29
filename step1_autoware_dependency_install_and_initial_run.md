@@ -78,5 +78,5 @@ yabloc_pose_initializer
 编译好autoware.APS库后，需要运行下面的指令，下载APS的dae模型，以便在环境中能显示APS的模型
 
 ```
-gdown -O ~/autoware.APS/src/launcher/autoware_launch_APS/vehicle/aps_vehicle_launch/aps_vehicle_description/mesh/aps2.dae  'https://drive.google.com/uc?id=1ZEu_IYBXvrCy5azXOEOhSrONRucKTkT_'
+gdown -O ~/autoware.APS/src/launcher/autoware_launch_APS/vehicle/aps_vehicle_launch/aps_vehicle_description/mesh/aps2.dae  'https://drive.google.com/uc?id=1JFPvChA3dt0KyEM8-l4DqiAY18JekRlM'
 ```
