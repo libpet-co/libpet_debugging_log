@@ -80,3 +80,9 @@ yabloc_pose_initializer
 ```
 gdown -O ~/autoware.APS/src/launcher/autoware_launch_APS/vehicle/aps_vehicle_launch/aps_vehicle_description/mesh/aps2.dae  'https://drive.google.com/uc?id=1JFPvChA3dt0KyEM8-l4DqiAY18JekRlM'
 ```
+
+
+
+新地图
+
+gdown -O ~/autoware.APS/src/launcher/autoware_launch_APS/vehicle/aps_vehicle_launch/aps_vehicle_description/mesh/aps2.dae  'https://drive.google.com/uc?id=1ftTz6hPGfxPof_JnTaneagK9Wb4q0Rnd'
