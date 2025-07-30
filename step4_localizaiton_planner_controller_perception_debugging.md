@@ -78,16 +78,23 @@ colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
 
 ```
 source install/setup.bash
-ros2 launch autoware_launch autoware.launch.xml map_path:=/home/frank/test_map/sample-map-planning-APS vehicle_model:=aps_vehicle sensor_model:=aps_sensor_kit
+ros2 launch autoware_launch test_localization_planner_perception.launch.xml map_path:=/home/libpet/test_perception/tes
+t_map/new_map_test vehicle_model:=aps_vehicle sensor_model:=aps_sensor_kit
 ```
 
 ## step 6 回放数据包
 
 ```
-unzip rosbag2_2025_07_21-14_12_57.zip 
-ros2 bag play rosbag2_2025_07_21-14_12_57/ --clock
+ros2 bag play with_people/ --clock --topic /rslidar_points /scan_f /scan_b /sensors/imu/data /vehicle/status/control_mode /vehicle/status/steering_status /vehicle/status/velocity_status /vehicle_velocity_converter/twist_with_covariance
 ```
 
-## step 7 使用rviz初始化并设置路径
+## step 7 使用autoware.launch启动需要修改下面的参数
 
-[参考视频教程](https://drive.google.com/file/d/1x6FAHwasYiO8vMzH_WgQzLgChDYvk236/view?usp=sharing)
+注意地图文件路径 map_path:=/home/libpet/test_perception/test_map/new_map_test 改成自己的
+
+```
+ros2 launch autoware_launch autoware.launch.xml map_path:=/home/libpet/test_perception/test_map/new_map_test vehicle_model:=aps_vehicle sensor_model:=aps_sensor_kit
+```
+
+![alt text](<docs/Screenshot from 2025-07-30 16-48-01.png>) 
+![alt text](<docs/Screenshot from 2025-07-30 16-48-11.png>)
