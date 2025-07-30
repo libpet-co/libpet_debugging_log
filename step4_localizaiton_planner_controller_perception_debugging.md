@@ -32,12 +32,12 @@ mkdir ros2_bag_data
 gdown -O ros2_bag_data/perception_test_data.zip https://drive.google.com/uc?id=1FDU2dlg6Qa77zgNntHXt_GWlPx2tdDnf
 unzip -d ros2_bag_data perception_test_data.zip
 ```
-2. 下载测试用地图数据
+2. 下载感知测试用地图数据
 
 ```
 mkdir test_map
-gdown -O test_map/sample-map-planning-APS.zip https://drive.google.com/uc?id=19PaxactEaybAZfU5lb4TlHDOIGFgKzBc
-unzip -d test_map/ test_map/sample-map-planning-APS.zip
+gdown -O test_map/new_map_test.zip https://drive.google.com/uc?id=1wruVu-qn84OR7ykUkFKpjuZiZzYuscum
+unzip -d test_map/ test_map/new_map_test.zip
 ```
 3. 下载vehicle APS的三维模型
 ```
