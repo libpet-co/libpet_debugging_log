@@ -2,6 +2,8 @@
 
 完成 step1_autoware_dependency_install_and_initial_run 和 step2_localizaiton_debugging 和 step3_localizaiton_planner_controller_debugging.md 后再进行此操作
 
+在操作之前请检查下面的指令是否加入到~/.bashrc中了。ROS_DOMAIN_ID的设置是为了防止局域网中的其它节点影响。RMW_IMPLEMENTATION=rmw_cyclonedds_cpp的设置是使用cyclonedds中间件。
+
 ```
 source /opt/ros/humble/setup.bash
 export ROS_DOMAIN_ID=7
@@ -27,8 +29,8 @@ vcs import src < autoware.repos
 1. ros2 bag 数据包含 imu 数据和 vehicle interface 数据
 ```
 mkdir ros2_bag_data
-gdown -O ros2_bag_data/rosbag2_2025_07_21-14_12_57.zip https://drive.google.com/uc?id=1gdhUmAzXyBWIGrEAqnjXgw9N4H-alEqG
-unzip -d ros2_bag_data rosbag2_2025_07_21-14_12_57.zip
+gdown -O ros2_bag_data/perception_test_data.zip https://drive.google.com/uc?id=1FDU2dlg6Qa77zgNntHXt_GWlPx2tdDnf
+unzip -d ros2_bag_data perception_test_data.zip
 ```
 2. 下载测试用地图数据
 
