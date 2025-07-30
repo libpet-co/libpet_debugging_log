@@ -1,8 +1,12 @@
-# localization+planner+controller 调试日志
+# localization+planner+controller+perception 调试日志
 
-完成 step1_autoware_dependency_install_and_initial_run 和 step2_localizaiton_debugging 和 step3_localizaiton_planner_controller_debugging.md 后再进行此操作
+完成 step1_autoware_dependency_install_and_initial_run 和 step2_localizaiton_debugging 和step3_localizaiton_planner_controller_debugging.md 后再进行此操作
 
-[配套的视频教程](https://drive.google.com/file/d/1x6FAHwasYiO8vMzH_WgQzLgChDYvk236/view?usp=sharing)
+```
+source /opt/ros/humble/setup.bash
+export ROS_DOMAIN_ID=7
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+```
 
 ## step 1 下载源码
 
