@@ -1,6 +1,6 @@
 # localization+planner+controller+perception 调试日志
 
-完成 step1_autoware_dependency_install_and_initial_run 和 step2_localizaiton_debugging 和step3_localizaiton_planner_controller_debugging.md 后再进行此操作
+完成 step1_autoware_dependency_install_and_initial_run 和 step2_localizaiton_debugging 和 step3_localizaiton_planner_controller_debugging.md 后再进行此操作
 
 ```
 source /opt/ros/humble/setup.bash
