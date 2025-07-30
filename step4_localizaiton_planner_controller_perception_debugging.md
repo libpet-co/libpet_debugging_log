@@ -30,7 +30,7 @@ vcs import src < autoware.repos
 ```
 mkdir ros2_bag_data
 gdown -O ros2_bag_data/perception_test_data.zip https://drive.google.com/uc?id=1FDU2dlg6Qa77zgNntHXt_GWlPx2tdDnf
-unzip -d ros2_bag_data perception_test_data.zip
+unzip -d ros2_bag_data ros2_bag_data/perception_test_data.zip
 ```
 2. 下载感知测试用地图数据
 
