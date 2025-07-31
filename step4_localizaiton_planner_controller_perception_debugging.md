@@ -72,6 +72,10 @@ colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
 
 ![alt text](docs/change_gnss_enabled.png)
 
+5.更改点云名称(非常重要)
+
+![alt text](<docs/Screenshot from 2025-07-31 18-08-39.png>)
+
 ## step 5 启动程序
 
 注意map_path:=/home/frank/test_map/sample-map-planning-APS改为自己的地图所在的路径
