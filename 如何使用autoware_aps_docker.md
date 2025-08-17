@@ -16,7 +16,7 @@
 docker load -i autoware_aps.tar
 ```
 
-![alt text](<Screenshot from 2025-08-17 14-41-48.png>)
+![alt text](<docs/Screenshot from 2025-08-17 14-41-48.png>)
 
 ## step3: 运行docker镜像
 
@@ -33,7 +33,7 @@ docker run -it --rm --network=host  -e DISPLAY=$DISPLAY   -e QT_QPA_PLATFORM=xcb
 ```
 xhost +
 ```
-![alt text](<Screenshot from 2025-08-17 14-49-11.png>)
+![alt text](<docs/Screenshot from 2025-08-17 14-49-11.png>)
 
 ## step4: 在docker容器中运行autoware_aps
 
@@ -42,5 +42,5 @@ cd autoware.APS/
 source install/setup.bash
 ros2 launch autoware_launch planning_simulator.launch.xml map_path:=/sample-map-planning  
 ```
-![alt text](<Screenshot from 2025-08-17 14-53-57.png>)
-![alt text](<Screenshot from 2025-08-17 14-54-55.png>)
+![alt text](<docs/Screenshot from 2025-08-17 14-53-57.png>)
+![alt text](<docs/Screenshot from 2025-08-17 14-54-55.png>)
