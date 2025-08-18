@@ -8,6 +8,8 @@
 
 2.下载autoware_aps docker 镜像
 
+下载地址：https://libpet-my.sharepoint.com/:f:/p/henry_sw/ElKnunU7iE9BhwDngcjaJsIB1Zm2_-9cnKDWEwomnSs_IA?e=eArxpb
+
 ![alt text](<docs/Screenshot from 2025-08-17 14-33-11.png>)
 
 ## step2: 加载docker镜像
