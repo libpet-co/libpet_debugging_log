@@ -60,19 +60,33 @@ colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release
 
 2.改变imu话题名为自己传感器的话题 
 
-查找和替换imu话题名
-
+查找和替换imu话题名 
+```
+/sensing/imu/imu_data
+/sensors/imu/data
+```
 ![alt text](docs/change_imu_topic.png)
 
 3.更改twist话题名为interface反馈的话题名字
-
+```
+/sensing/vehicle_velocity_converter/twist_with_covariance
+/vehicle_velocity_converter/twist_with_covariance
+```
 ![alt text](docs/change_twist_name.png)
 
 4.使用gnss设置为false
 
+```
+gnss_enabled
+```
+
 ![alt text](docs/change_gnss_enabled.png)
 
 5.更改点云名称(非常重要)
+```
+self.output_topic = "/perception/obstacle_segmentation/pointcloud"
+self.output_topic = "/perception/obstacle_segmentation/pointcloud_seg"
+```
 
 ![alt text](<docs/Screenshot from 2025-07-31 18-08-39.png>)
 
